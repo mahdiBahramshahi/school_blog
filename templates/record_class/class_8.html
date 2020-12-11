@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} record_class {% endblock %}
+
+{% block content %}
+<form action="{{url_for('record_class.class_8')}}">
+    <center><h1>کلاس های ضبط شده پایه هشتم</h1></center>
+</form>
+
+<div style="float: right;" id="content">
+    <form action="{{url_for('record_class.class_8')}}">
+    <p>!کلاس ضبط شده ای وجود ندارد</p>
+    </form>
+</div>
+{% endblock %}

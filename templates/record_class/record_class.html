@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %} record_class {% endblock %}
+
+{% block content %}
+<form action="{{url_for('record_class.class_9')}}">
+    <center><h1>کلاس های ضبط شده</h1></center>
+</form>
+
+<div id="content" style="height:500px; width:410px;float:left;">
+    <form style="background-color: rgb(29, 71, 163);;" action="{{url_for('record_class.index')}}">
+    <div>
+        <center><img   width="400" height="200" src="https://s16.picofile.com/file/8414607400/class_9.jpg" alt="class_9 logo"></center><br>
+    </div>
+    <center><a style="color: white;" href="{{url_for('record_class.class_9')}}">پایه نهم</a></center>
+    </form>
+</div>
+
+
+
+
+<div id="content" style="height:500px; width:410px;float:left;">
+    <form style="background-color: rgb(29, 71, 163);;" action="{{url_for('record_class.index')}}">
+    <div>
+        <center><img   width="400" height="200" src="https://s16.picofile.com/file/8414607376/class_8.jpg" alt="class_8 logo"></center><br>
+    </div>
+    <center><a style="color: white;" href="{{url_for('record_class.class_8')}}">پایه هشتم</a></center>
+    </form>
+</div>
+
+<div id="content" style="height:500px;width:410px;float:left;">
+    <form style="background-color: rgb(29, 71, 163);" action="{{url_for('record_class.index')}}">
+    <div>
+        <center><img   width="400" height="200" src="https://s17.picofile.com/file/8414607292/class_7.jpg" alt="class_7 logo"></center><br>
+    </div>
+    <center><a style="color: white;" href="{{url_for('record_class.class_7')}}">پایه هفتم</a></center>
+    </form>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} رویداد ها {% endblock %}
+
+{% block content %}
+<form action="{{url_for('school_dates.index')}}">
+    <center><h1>رویداد های مدرسه</h1></center>
+</form>
+
+{% endblock %}

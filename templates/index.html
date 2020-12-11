@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block title %} مدرسه جامعه الصادق {% endblock %}
+
+{% block content %}
+
+<main>
+<form action="{{url_for('index')}}">
+<div>
+    <center><img   width="400" height="200" src="https://s17.picofile.com/file/8414603934/WhatsApp_Image_2020_11_10_at_18_38_04.jpeg" alt="school logo"></center><br>
+    <center><h1>دبیرستان نمونه دولتی جامعه الصادق</h1></center>
+</div>
+</form>
+<br><br>
+
+
+
+
+
+<div id="content" >
+
+<div id="content" style=" width:410px;float:left;">
+    <form action="{{url_for('index')}}">
+    <div>
+        <center><img   width="275" height="400" src="https://s16.picofile.com/file/8414607192/record_logo.jpg" alt="record_class logo"></center><br>
+    </div>
+    <center><a href="{{url_for('record_class.index')}}">کلاس های ضبط شده</a></center>
+    </form>
+</div>
+
+<div id="content" style=" width:410px;float:left;">
+    <form action="{{url_for('index')}}">
+    <div>
+        <center><img   width="148" height="400" src="https://s17.picofile.com/file/8414608542/galeryphoto_logo.png" alt="gallery_photo logo"></center><br>
+    </div>
+    <center><a  href="{{url_for('galery_photo.index')}}">گالری تصاویر</a></center>
+    </form>
+</div>
+<div id="content" style=" width:410px;float:left;">
+    <form action="{{url_for('index')}}">
+    <div>
+        <center><img   width="150" height="400" src="https://s17.picofile.com/file/8414660300/dates_logo2.png" alt="dates logo"></center><br>
+    </div>
+    <center><a  href="{{url_for('school_dates.index')}}">رویداد های مدرسه</a></center>
+    </form>
+</div>
+
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div id="content">
+<div id="content" style=" width:410px;float:left;">
+    <form action="{{url_for('index')}}">
+    <div>
+        <center><img   width="150" height="400" src="https://s17.picofile.com/file/8414660950/eftekhar_logo.jpg" alt="eftekhar_afarinan logo"></center><br>
+    </div>
+    <center><a href="{{url_for('eftekhar_afarinan.index')}}">افتخار آفرینان</a>
+    </form>
+</div>
+</div>
+
+</main>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+<!-- <form action="{{url_for('index')}}">
+    <div >
+        <h1>به درستی که " نماز "  نیکوترین صورتی است که خدا آن را خلق کرد </h1> 
+    </div>
+</form> -->
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<footer >
+<form action="{{url_for('index')}}">
+
+    <a style=" color: black; font-size: small;float: right;margin-right: 30px ; color: blue;" href="{{url_for('school_dates.index')}}">رویداد های مدرسه</a><br>
+    <a style=" color: black; font-size: small;float: right;margin-right: 30px ; color: blue;" href="{{url_for('eftekhar_afarinan.index')}}">افتخار آفرینان</a> <br>
+    <a style=" color: black; font-size: small;float: right;margin-right: 30px ; color: blue;" href="{{url_for('galery_photo.index')}}">گالری تصاویر</a><br>
+    
+<div style="float: right; text-align: right; font-size: small; margin-right: 20px;">
+    دبیرستان نمونه دولتی جامعه الصادق (ع)
+    <br>
+    ناحیه یک بندرعباس
+    <br>
+    آدرس :بندرعباس ,بلوار امام حسین , الهیه جنوبی <br>
+    جنب پمپ بنزین سامکو , مجموعه آموزشی آیت الله فاضل لنکرانی
+    <br>
+    کد پستی : ۸۹۵۷۳۵۹۶۶۹۸۷
+</div><br><br><br><br><br>
+    <p style="color: mediumblue; font-size: small; float: right;"><b style="color: maroon;float: right;">: ارتباط با مدرسه</b>  091798753485794</p>
+<br><br>
+<center><p style="color: blue; font-size: small;">|کلیه حقوق این وبسایت متعلق به مدرسه نمونه دولتی جامعه الصادق (ع) میباشد| <br> |طراح سایت = مهدی بهرامشاهی|</p></center>
+<br><br>
+</form>
+<br><br>
+</footer>
+{% endblock %}
+

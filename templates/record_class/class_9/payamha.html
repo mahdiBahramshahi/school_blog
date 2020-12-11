@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %} پیام های آسمانی {% endblock %}
+
+{% block content %}
+<form action="{{url_for('record_class.payamha_record')}}">
+    <center><h1>پیام های آسمانی</h1></center>
+</form>
+{% endblock %}

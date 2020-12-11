@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} گالری تصاویر {% endblock %}
+
+{% block content %}
+<form action="{{url_for('galery_photo.index')}}">
+    <center><h1>گالری تصاویر</h1></center>
+</form>
+
+<div style="float: right; width: 100px;" id="content">
+    <form action="{{url_for('eftekhar_afarinan.index')}}">
+    <p style="float: right;">0</p><p> آلبوم</p>
+    </form>
+</div>
+
+{% endblock %}
